@@ -1,0 +1,2 @@
+# MovieSizeChanger
+動画ファイルの各フレームの大きさを拡大・縮小するCLIツール
