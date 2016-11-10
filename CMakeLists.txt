@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 2.8)
+add_definitions("-Wall -std=c++11")
+project( MovieSizeChanger )
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable( MovieSizeChanger main.cpp )
+target_link_libraries( MovieSizeChanger ${OpenCV_LIBS} )
